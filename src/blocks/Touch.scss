@@ -1,0 +1,79 @@
+.touch{
+  position: relative;
+  background-image: url('../images/back/backgroundBlue.png');
+  min-height: 481px;
+  &__text{
+    padding-top: 131px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #F7FAFF;
+  }
+  &__subTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 56px;
+    padding-top: 4px;
+    text-align: center;
+    color: #FFC8C8;
+  }
+  &__input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.07);
+    border-radius: 200px;
+  }
+  &__btn{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate3d(0px, -50%, 10px);
+    background: #007188;
+    border-radius: 200px;
+    height: 69px;
+    width: 152px;
+    border: none;
+  }
+  &__sab{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color:white;
+  }
+  &__planeOne{
+    float: right;
+    margin: 60px 42px 0 0;
+  }
+  &__branchOne{
+    float: right;
+    margin: 85px 0 0 0;
+  }
+  &__planeTwo{
+    position: absolute;
+    margin: 60px 0 0 48px;
+  }
+  &__branchTwo{
+    position: absolute;
+    margin: 80px 0 0 95px;
+  }
+  &__test{
+    margin: 43px auto 0 auto;
+    width: 800px;
+    height: 80px;
+    position: relative;
+  }
+}

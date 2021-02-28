@@ -1,0 +1,207 @@
+@media all and (max-width: 480px){
+  .nav{
+    &__menu{
+      display: none;
+    }
+  }
+  .intro{
+    &__img{
+      display: block;
+      margin: 0 auto;
+      float: none;
+      width: 60%;
+      height: 60%;
+    }
+    &__name{
+      display: block;
+      margin: 0 auto;
+      font-size: 60px;
+      line-height: 50px;
+      padding:50px 0 0 0;
+      width: 80%;
+      word-wrap: break-word;
+    }
+    &__descr{
+      display: block;
+      margin: 0 auto;
+      font-size: 21px;
+      line-height: 34px;
+      width: 80%;
+      padding-top: 20px;
+    }
+    &__test{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+    }
+    &__input{
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 80%;
+    }
+    &__btn{
+      width: 30%;
+      top: 40%;
+      right: 10px;
+      transform: translate3d(-45px, -100%, 0);
+    }
+    &__ovalAll{
+      height: 35px;
+      width: 80%;
+      margin: 20px auto;
+    }
+    &__line{
+      margin-top: 15px;
+      width: 20%;
+    }
+  }
+
+  input::placeholder {
+    font-size: 20px;
+  }
+}
+
+
+@media all and (max-width: 480px) {
+  .career{
+    &__info{
+      margin-bottom: 50px;
+    }
+    &__get{
+      padding: 0;
+      font-size: 40px;
+      line-height: 40px;
+    }
+    &__back{
+      margin: 0 auto 0 auto;
+    }
+    &__cirkul{
+      display: flex;
+      flex-direction: column;
+    }
+    &__shape{
+      display: block;
+      margin: 0 auto;
+    }
+    &__infoTwo{
+      display: flex;
+      flex-direction: column;
+    }
+    &__section{
+      display: block;
+      margin: 50px auto 0 auto;
+      width: 80%;
+      height: 80%;
+    }
+    &__connect{
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      height: 80%;
+    }
+  }
+}
+
+@media all and (max-width: 480px) {
+  .feature{
+    &__cardsOne{
+      margin-top: 40px;
+    }
+    &__cardsTwo{
+      margin-top: 40px;
+    }
+    &__cardsThree{
+      margin-top: 40px;
+    }
+  }
+  .engement{
+    &__img{
+      display: block;
+      margin: 20px auto;
+      width: 80%;
+      height: 80%;
+    }
+    &__block{
+      display: block;
+      margin: 20px auto;
+      width: 80%;
+      height: 80%;
+    }
+  }
+  .recall{
+    &__cardAll{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0 auto;
+    }
+    &__cardOne{
+      width: 400px;
+      height: 120%;
+      margin: 0 auto;
+      padding: 0;
+    }
+    &__imgSmall{
+      margin-bottom: 20px;
+    }
+    &__cardTwo{
+      float: none;
+      margin: 20px auto 0 auto;
+      width: 80%;
+    }
+    &__cardThree{
+      margin:20px auto 20px auto;
+      width: 80%;
+    }
+    &__textOne{
+      width: 80%;
+      font-size: 22px;
+    }
+    &__textTwo{
+      width: 80%;
+    }
+    &__textThree{
+      width: 80%;
+    }
+    &__nameOne{
+      margin-top: -70px;
+    }
+    &__profOne{
+      padding-bottom: 50px;
+    }
+    &__starsOne{
+      margin-top: -30px;
+    }
+    &__starsThree{
+      margin-top: -30px;
+    }
+  }
+  .touch{
+    &__test{
+      margin: 0 auto;
+      width:80%;
+    }
+  }
+  .footer{
+    &__blockAll{
+      display: flex;
+      flex-direction: column;
+    }
+    &__text{
+      width:200px;
+    }
+    &__sitemap{
+      margin: 20px auto ;
+      text-align: center;
+    }
+    &__social{
+      margin: 20px auto ;
+      text-align: center;
+    }
+    &__get{
+      margin: 20px auto ;
+      text-align: center;
+    }
+  }
+}
